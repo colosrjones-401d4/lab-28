@@ -1,0 +1,17 @@
+.App {
+  background-color: cornflowerblue;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1, h2, h3, form{
+  margin: auto;
+  width: 50%;
+  background-color: brown;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+}
+body{
+  background-color: darkcyan;
+}
