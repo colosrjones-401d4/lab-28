@@ -1,12 +1,12 @@
 import React from "react";
 
 class Form extends React.Component {
-  handler = event => {
-    event.preventDefault();
+  handler = e => {
+    e.preventDefault();
   };
 
-  capture = event => {
-    let current = event.target.value;
+  capture = e => {
+    let current = e.target.value;
     this.props.do(current);
   };
 
